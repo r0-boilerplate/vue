@@ -1,0 +1,21 @@
+.logo-bar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  .item {
+    display: flex;
+    align-items: flex-end;
+    .icon-box {
+      .logo {
+        width: 80px;
+      }
+      .title {
+        font-weight: bold;
+      }
+    }
+    .plus {
+      width: 40px;
+      margin: 0 20px;
+    }
+  }
+}
